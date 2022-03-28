@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Merriweather, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "banner banner banner"
+}
