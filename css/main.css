@@ -26,3 +26,45 @@ body {
 header {
   margin: 1rem;
 }
+
+h1 {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: bold;
+}
+
+dt {
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+}
+
+.banner-title {
+  color: #fff;
+  grid-area: banner;
+  padding: 1.5rem 1rem;
+
+}
+
+.banner-photo {
+  display: grid;
+  grid-area: banner;
+  max-width: inherit;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  padding: .2rem 1.2rem;
+}
