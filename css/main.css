@@ -65,7 +65,7 @@ img {
 
 .banner-text {
   grid-area: banner;
-  color: white;
+  color: #fff;
   align-self: end;
   padding: 1.5rem 1rem;
 }
